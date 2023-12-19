@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  web:
+    build:
+      dockerfile: ./stamps_web/Dockerfile
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - 8000:8000
+    # keep the container running, just like -t in docker command
+    tty: true

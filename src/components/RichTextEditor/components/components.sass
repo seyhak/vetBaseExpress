@@ -1,0 +1,45 @@
+.rich-text-editor-toolbar
+  position: relative
+  padding: 8px 18px 8px 12px
+  border-bottom: 2px solid #eee
+
+.rich-text-editor-btn
+  cursor: pointer
+  &.non-reversed
+    opacity: 40%
+    color: '#aaa'
+    &.active
+      opacity: 100%
+      color: 'white'
+  &.reversed
+    color: '#ccc'
+    &.active
+      opacity: 100%
+      color: 'black'
+      
+.rich-text-editor-icon
+  font-family: 'Material Icons'
+  font-size: 18px
+  vertical-align: text-bottom
+
+.editor-value
+  margin: 30px -20px 0
+  .text
+    font-size: 14px
+    padding: 5px 20px
+    color: #404040
+    border-top: 2px solid #eeeeee
+    background: #f8f8f8
+  .bottom-div
+    color: #404040
+    font: 12px monospace
+    white-space: pre-wrap
+    padding: 10px 20px
+    div
+      margin: 0 0 0.5em
+
+.editor-menu
+  & > *
+    display: inline-block
+  & > * + *
+    margin-left: 15px

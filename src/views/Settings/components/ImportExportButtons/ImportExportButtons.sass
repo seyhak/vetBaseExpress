@@ -1,0 +1,31 @@
+.import-export-buttons
+  display: flex
+  justify-content: space-between
+  align-items: center
+  flex: 1
+  position: relative
+  .icon-wrapper
+    position: absolute
+    top: calc(50% - 100px)
+    right: calc(50% - 16px)
+  .buttons-wrapper
+    display: flex
+    justify-content: space-evenly
+    flex: 1
+    svg
+      font-size: 2em
+
+    .import-button
+      border-radius: 180px
+      svg
+        font-size: 56px
+      .file-input
+        clip: rect(0 0 0 0)
+        clip-path: inset(50%)
+        height: 1px
+        overflow: hidden
+        position: absolute
+        bottom: 0
+        left: 0
+        white-space: nowrap
+        width: 1px
