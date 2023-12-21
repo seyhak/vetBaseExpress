@@ -1,0 +1,14 @@
+{
+  "name": "vetBaseExpress",
+  "version": "1.0.0",
+  "description": "Node.js app for knowledge base",
+  "main": "index.js",
+  "repository": "https://github.com/seyhak/vetBaseExpress.git",
+  "author": "Seyhak <seyhakly@gmail.com>",
+  "license": "GPL-3.0-only",
+  "private": null,
+  "devDependencies": {
+    "@nestjs/cli": "^10.2.1"
+  },
+  "dependencies": {}
+}
